@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A'YAS - UI Designer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header/Navigation -->
+        <header>
+            <div class="logo">
+                <a href="/"> <img src="images/logo-ayas-svg.svg" alt="A'YAS Logo" width="70" height="50">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>I'm Abdi - <span class="highlight">UI</span> designer based in Oslo.</h1>
+                <br><br>
+                <h2>I design <span class="highlight">&</span> develop interfaces where form meets function perfectly!</h2>
+                <div class="scroll-down">
+                    <a href="#portfolio">
+                        <div class="circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <h2 class="section-title">Selected Projects</h2>
+            <br>
+            <br>
+            <br>
+            <div class="projects">
+                <!-- Project 1 -->
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/ss-bloom.png" alt="Project 2" width="700" height="300">
+                    </div>
+                    <div class="project-info">
+                        <h3>Charity Website Redesign</h3>
+                        <p class="project-category">UI Design / Branding</p>
+                        <p class="project-description">A complete redesign of a local charity's website, focusing on improved user experience and donation conversion.</p>
+                        <a href="#" class="btn">View Case Study</a>
+                    </div>
+                </div>
+                <hr class="hr">
+                <!-- Project 2 -->
+                <div class="project reverse">
+                    <div class="project-image">
+                        <img src="images/animal-adopt.png" alt="Project 2" width="700" height="300">
+                    </div>
+                    <div class="project-info">
+                        <h3>Artisan Craft Portfolio</h3>
+                        <p class="project-category">UI Design / E-commerce</p>
+                        <p class="project-description">Designed an e-commerce platform for a local craftsman to showcase and sell handmade products.</p>
+                        <a href="#" class="btn">View Case Study</a>
+                    </div>
+                </div>
+                <hr>
+                <!-- Project 3 -->
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/mobile-home-nwt.png" alt="Project 2" width="300" height="300">
+                    </div>
+                    <div class="project-info">
+                        <h3>Creative Dashboard</h3>
+                        <p class="project-category">UI Design / Data Visualization</p>
+                        <p class="project-description">A dashboard interface for creative professionals to track projects, clients, and finances.</p>
+                        <a href="#" class="btn">View Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="contact-intro">Looking for a UI designer to help with your next project? Get in touch!</p>
+            
+            <div class="contact-info">
+                <div class="contact-details">
+                    <h3>Contact Details</h3>
+                    <p>Email: hello@ayas.design</p>
+                    <p>Location: Oslo, Norway</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Behance</a>
+                        <a href="#" class="social-link">Dribbble</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="logo">
+                    <a href="/"> <img src="images/logo-ayas-svg.svg" alt="A'YAS Logo" width="70" height="50">
+                    </a>
+                </div>
+                <p>&copy; 2025 A'YAS Design. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
