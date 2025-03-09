@@ -116,13 +116,13 @@ nav ul li a.active:after {
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: 2.6rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
 }
 
 .hero h2 {
-    font-size: 1.6rem;
+    font-size: 1.55rem;
     font-weight: 400;
     margin-bottom: 3rem;
 }
